@@ -44,3 +44,11 @@
 .navigator ul li:last-child {
   margin-bottom: 0;
 }
+
+
+.navigator ul li a {
+  color: #fff;
+  border-radius: 50%;
+  background-color: black;
+}
+  
