@@ -1,4 +1,5 @@
 @import url('reset.css');
+@import url('global.css');
 
 
 
@@ -48,7 +49,32 @@
 
 .navigator ul li a {
   color: #fff;
+  border: solid 2px #fff;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   
+.navigator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #fff;
+  z-index: 0;
+}
+
+.navigator ul {
+  z-index: 1;
+}
+
+.navigator ul li a:hover,
+.navigator ul li a.active {
+  color: var(--primary-color);
+  background-color: #fff;
+}
