@@ -78,3 +78,8 @@
   color: var(--primary-color);
   background-color: #fff;
 }
+
+.navigator .navigator__icon {
+  position: absolute;
+  top: -20px;
+}
