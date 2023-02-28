@@ -10,14 +10,18 @@
   <link rel="stylesheet" href="../../assets/css/internal.css">
 
   <!-- Cdn FancyApp -->
-  <link 
-  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
   </link>
   <title>Multiverso | Spiderman</title>
 </head>
 
 <body>
   <div class="s-wrapper">
+    
+      <video loop autoplay muted>
+      <source src="../../assets/videos/spiderman-2002-trailer.mp4" type="video/mp4">
+      </video>
+   
     <div class="s-left-column">
       <nav class="navigator">
         <div class="navigator__icon">
@@ -33,8 +37,9 @@
       </nav>
     </div>
 
+    <!-- s-spiderman-01-01 -->
 
-    <div class="s-main-content s-spiderman-01-01">
+    <div class="s-main-content">
       <div class="s-main-content__top">
         <div class="s-logo">
           <img src="../../assets/images/spiderman-tobey/movie-01/logo.png" alt="Logo spiderman1">
@@ -79,15 +84,15 @@
         <div class="gallery">
           <ul>
             <li>
-              <a href="#"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png">
+              <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-01-full.jpg"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png">
               </a>
             </li>
             <li>
-              <a href="#"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png">
+              <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-02-full.jpg"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png">
               </a>
             </li>
             <li>
-              <a href="#"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png">
+              <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-03-full.jpg"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png">
               </a>
             </li>
           </ul>
@@ -95,7 +100,12 @@
       </div>
     </div>
   </div>
-  <!-- DEFININDO O BACKGROUND DA PAGINA INTERNA -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+
+  </script>
+
+
 </body>
 
 </html>
