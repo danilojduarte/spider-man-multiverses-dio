@@ -81,5 +81,6 @@
 }
 
 .s-spiderman-01-01 {
-
+  background-image: url(../images/spiderman-tobey/movie-01/background.png);
+  background-size: cover;
 }
